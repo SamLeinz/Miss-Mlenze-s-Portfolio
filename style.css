@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+.nav-menu {
+    display: none; /* Hide by default */
+}
+
+.nav-menu.responsive {
+    display: block; /* Show when the "responsive" class is added */
+}
 
 :root{
     --color-bg: #E9D5B7;
